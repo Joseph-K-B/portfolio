@@ -13,7 +13,7 @@ class Main extends Component {
         </div>
       </section>
       <section className="top-section">
-        <div className='left-middle'>
+        <div className='left-top'>
           <h2>Languages</h2>
           <ul>
             <li>JavaScript</li>
@@ -31,11 +31,20 @@ class Main extends Component {
             <p className='full-stack-p'>blah</p>
             <p className='collab-p'>blah</p>
         </div>
+        {/* <div className='left-middle'>
+          <h2>Libraries</h2>
+          <ul>
+            <li>React</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </div> */}
         <div className='left-bottom'>
           <h2>Contact</h2>
           <ul>
             <li><a>LinkedIn</a></li>
             <li><a>Email</a></li>
+            <li><a>Twitter</a></li>
             <li><a>Github</a></li>
           </ul>
         </div>      
