@@ -71,6 +71,20 @@ class Main extends Component {
             </div>
         </div>
       </section>
+      <section>
+        <div className='foot-section'>
+          <h3>Contact me for inquiries</h3>
+          <form className='contact-form'>
+            <label>Name:</label>
+              <input type='text'></input>
+            <label>Email:</label>
+              <input type='text'></input>
+            <label>Message:</label>
+              <input type='text'></input>
+            <button>Button</button>
+          </form>
+        </div>
+      </section>
    </> 
     );
   }

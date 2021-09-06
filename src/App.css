@@ -48,3 +48,20 @@
   border: solid black .3rem;
   background-color: goldenrod;
 }
+
+.foot-section{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(32, 236, 219);
+  justify-content: space-between;
+}
+
+.contact-form{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+}
+input{
+  max-width: 6rem;
+  max-height: 2rem;
+}
